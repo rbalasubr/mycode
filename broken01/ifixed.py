@@ -19,7 +19,8 @@ while (calc1 != "q"):
     print("Enter an operation to perform on the two operators (+ or -): ")
     operation = input()
     if operation == "+":
-        print(str(calc1) + " + " + str(calc2) + " = " + str(calc1 + calc2))
+        #print(str(calc1) + " + " + str(calc2) + " = " + str(calc1 + calc2))
+        print(f'\n{calc1} + {calc2} = {calc1 + calc2}')
     elif operation == '-':
         print("\n" + str(calc1) + " - " + str(calc2) + " = " + str(calc1 - calc2))
     else:
