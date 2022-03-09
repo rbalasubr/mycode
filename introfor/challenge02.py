@@ -12,7 +12,6 @@ def main():
          {"name": "W Farm", "agriculture": ["pigs", "chickens", "llamas"]},
          {"name": "SE Farm", "agriculture": ["chickens", "carrots", "celery"]}]
 
-
     # each time through the loop
     # farm will be equal to one of the dict within the list "farms"
     for val in  range(len(farms)):
